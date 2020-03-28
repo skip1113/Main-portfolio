@@ -4,26 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-            
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/css/uikit.min.css" />
+
+
     <title>Skip Khamvongsa | Full Stack Developer</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="nav-wrapper">
-              <a href="#" class="brand-logo"><strong>Skip Khamvongsa</strong></a>
-              
-              <span class="nav-title"><h6>Full Stack Developer & Web Designer</h6></span>
-              <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#"><strong>About</strong></a></li>
-                <li><a href="portfolio.html"><strong>Projects</strong></a></li>
-                <li><a href="contact.html"><strong>Contact</strong></a></li>
-              </ul>
-            </div>
-          </nav>
-    </header>
+  <nav class="navbar navbar-inverse" id="full-nav">
+    <div class="container-fluid navbar-left">
+      <div class="navbar-header navbar-nav navbar-left">
+        <a class="navbar-brand" href="#" id="name-logo"><strong>Skip Khamvongsa</a></strong>
+        <a id="develope">Full Stack Developer & Web Designer</a>
+      </div>
+      
+        
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a href="#" id="about-link">About</a>
+        </li>
+        <br>
+        <li class="nav-item">
+          <a href="#" id="port-link">Portfolio</a>
+        </li>
+        <br>
+        <li class="nav-item">
+          <a href="#" id="cont-link">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="uk-height uk-background-cover uk-overflow-hidden uk-light uk-flex uk-flex-top">
+    <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto">
+        <h1 uk-parallax="opacity: 0,1; y: -100,0; scale: 2,1; viewport: 0.5;" id="h1-top">Full Stack Developer & Web Designer</h1>
+        <p uk-parallax="opacity: 0,1; y: 100,0; scale: 0.5,1; viewport: 0.5;">Hi! Im Skip Khamvongsa, and I'm Based out of Denver, CO. If you are a business seeking a web presence, or a employer looking to hire, You may contact me here.</p>
+        <p uk-parallax="opacity: 0,1; y: 100,0; scale: 0.5,1; viewport: 0.5;">My Set of skills, ranging from design to HTML, CSS, Bootstrap, JavaScript, Node.JS, MySQL, MongoDB, ORM, PHP, React, and many more.</p>
+    </div>
+  </div>
+
 </body>
 </html>
