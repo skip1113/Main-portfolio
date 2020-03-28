@@ -1,0 +1,64 @@
+.navbar-brand{
+    color: #5f5a5a;
+}
+nav{
+    background-image: url("https://www.wherevermag.com/wp-content/uploads/2019/03/Ulysses-Pro-Writing-Hero-4.jpg");
+    
+}
+#develope{
+    color: white;
+}
+#name-logo{
+    font-size: 30px;
+    color: white;
+}
+#full-nav{
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+#about-link{
+    color: white;
+    padding-right: 15px;
+    font-size: 20px;
+}
+#port-link{
+    color: white;
+    padding-right: 15px;
+    font-size: 20px;
+}
+#cont-link{
+    color: white;
+    padding-right: 60px;
+    font-size: 20px;
+}
+#input-form{
+    float: left;
+}
+#right-text{
+    float: right;
+    text-align: center;
+}
+#sub-btn{
+    background-color: #3bbdb6;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+#full-form{
+    background-color: #d6d2d2;
+    padding-bottom: 30%;
+}
+#form-field{
+    margin-left: 20px;
+    margin-top: 40px;;
+}
+#right-text{
+    margin-top: 40px;
+}
+#get-text{
+    font-weight: bold;
+}
+#fill-text{
+    padding-bottom: 15px;
+    margin-top: 10px;
+}

@@ -1,0 +1,24 @@
+.navbar-brand{
+    color: #5f5a5a;
+}
+#name-logo{
+    font-size: 30px;
+}
+#full-nav{
+    padding-top: 40px;
+}
+#about-link{
+    color: #9d9d9d;
+    padding-right: 15px;
+    font-size: 20px;
+}
+#port-link{
+    color: #9d9d9d;
+    padding-right: 15px;
+    font-size: 20px;
+}
+#cont-link{
+    color: #9d9d9d;
+    padding-right: 60px;
+    font-size: 20px;
+}

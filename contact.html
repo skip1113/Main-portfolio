@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Skip Khamvongsa | Full Stack Developer</title>
 </head>
 <body>
-  <nav class="navbar navbar-inverse" id="full-nav">
+  <nav class="navbar navbar-inverse">
     <div class="container-fluid navbar-left">
-      <div class="navbar-header navbar-nav navbar-left">
+      <div class="navbar-header navbar-nav navbar-left" id="full-nav">
         <a class="navbar-brand" href="#" id="name-logo"><strong>Skip Khamvongsa</a></strong>
         <a id="develope">Full Stack Developer & Web Designer</a>
       </div>
@@ -16,19 +20,54 @@
         
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a href="#" id="about-link">About</a>
+          <a href="index.html" id="about-link">About</a>
         </li>
         <br>
         <li class="nav-item">
-          <a href="#" id="port-link">Portfolio</a>
+          <a href="portfolio.html" id="port-link">Portfolio</a>
         </li>
         <br>
         <li class="nav-item">
-          <a href="#" id="cont-link">Contact</a>
+          <a href="contact.html" id="cont-link">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
-    
+  <div class="row">
+    <div class="col-md-12" id="full-form">
+      <div class="col-md-5" id="input-form">
+        <form>
+          <fieldset class="uk-fieldset" id="form-field">
+
+              <legend class="uk-legend" id="get-text">Get in Touch</legend>
+              <h4 id="fill-text">Please fill out this form or send me a email and we will be in touch as soon as possible. </h4>
+              <div class="uk-margin">
+                  <input id="name-input" class="uk-input" type="text" placeholder="Name">
+              </div>
+
+              <div class="uk-margin">
+                <input id="email-input" class="uk-input" type="text" placeholder="Email address">
+              </div>
+
+              <div class="uk-margin">
+                  <textarea id="mes-input" class="uk-textarea" rows="5" placeholder="Message"></textarea>
+              </div>
+              <button class="uk-button uk-button-default" id="sub-btn">Submit</button>
+          </fieldset>
+        </form>
+      </div>
+        <div id="right-text" class="col-md-7">
+          <h4>Connect with me in other ways:</h4>
+          
+          <h6>You may email me at: skipk95@gmail.com</h6>
+          <br>
+          <h4>Social Links:</h4>
+          <i class="fa fa-github-square" style="font-size:36px"></i>
+          <i class="fa fa-linkedin-square" style="font-size:36px"></i>
+          <i class="fa fa-facebook-square" style="font-size:36px"></i>
+        </div>
+    </div>
+  </div>
+ 
 </body>
 </html>
