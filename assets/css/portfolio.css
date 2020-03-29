@@ -13,7 +13,7 @@ body {
   }
 #full-nav-one{
     padding-top: 20px;
-    padding-bottom: 130px;
+    padding-bottom: 100px;
     background-image: url("https://miro.medium.com/max/2000/1*ZeixM2OCyy_xUEKMnSp_bQ.png");
 }
 .navbar-brand{
@@ -81,3 +81,23 @@ body {
  #img1{
      max-width: 95%;
  }
+ #footer-link{
+     text-align: center;
+     padding-top: 50px;
+     padding-bottom: 40px;
+ }
+ #git-con{
+    padding-right: 5px;
+    color: black;
+}
+#link-con{
+    padding-right: 5px;
+    color: black;
+}
+#face-con{
+    padding-right: 5px;
+    color: black;
+}
+#tweet-con{
+    color: black;
+}

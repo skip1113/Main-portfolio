@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/css/uikit.min.css" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Skip Khamvongsa | Full Stack Developer</title>
   
@@ -48,9 +48,9 @@
           <h1 id="project">Web Apps & Projects</h1>
           <div id="myBtnContainer">
             <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-            <button class="btn" onclick="filterSelection('game')"> Games</button>
-            <button class="btn" onclick="filterSelection('app')"> Apps</button>
-            <button class="btn" onclick="filterSelection('project')"> Projects</button>
+            <button class="btn" onclick="filterSelection('game')" id="gameBtn"> Games</button>
+            <button class="btn" onclick="filterSelection('app')" id="appBtn"> Apps</button>
+            <button class="btn" onclick="filterSelection('project')" id="proBtn"> Projects</button>
           </div>
 
         </div>
@@ -156,28 +156,22 @@
       </div>
     </div>
   </div>
+  
   <footer class="page-footer">
     <div class="container">
       <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Footer Content</h5>
-          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-        </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Social Media Links</h5>
-            <a href="https://github.com/skip1113?tab=repositories"><i class="fa fa-github-square" style="font-size:36px" id="git-con"></i></a>
-            <a href="https://www.linkedin.com/in/skip-khamvongsa-7266a119b/"><i class="fa fa-linkedin-square" style="font-size:36px" id="link-con"></i></a>
-            <a href="https://www.facebook.com/skip.khamvongsa"><i class="fa fa-facebook-square" style="font-size:36px" id="face-con"></i></a>
+        
+        <div class="col l4 offset-l2 s12" id="footer-link">
+          <hr>
+          <h3 class="white-text">Social Media</h3>
+            <a href="https://github.com/skip1113?tab=repositories" target="_blank"><i class="fa fa-github-square" style="font-size:36px" id="git-con"></i></a>
+            <a href="https://www.linkedin.com/in/skip-khamvongsa-7266a119b/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:36px" id="link-con"></i></a>
+            <a href="https://www.facebook.com/skip.khamvongsa" target="_blank"><i class="fa fa-facebook-square" style="font-size:36px" id="face-con"></i></a>
             <a href="#"><i class="fa fa-twitter-square" style="font-size:36px" id="tweet-con"></i></a>
         </div>
       </div>
     </div>
-    <div class="footer-copyright">
-      <div class="container">
-      © 2020 Copyright Text
-      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-      </div>
-    </div>
+    
   </footer>
 
   <script>
