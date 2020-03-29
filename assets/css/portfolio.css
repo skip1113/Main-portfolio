@@ -101,3 +101,6 @@ body {
 #tweet-con{
     color: black;
 }
+.show {
+    display: block;
+  }

@@ -37,23 +37,24 @@
     <div class="row" id="form-container">
       <div class="col-md-12" id="full-form">
         <div class="col-md-8" id="input-form">
+          <!-- <form action="mailto:skipk95@gmail.com" method="post" enctype="text/plain"> -->
           <form>
             <fieldset class="uk-fieldset" id="form-field">
 
                 <legend class="uk-legend" id="get-text">Get in Touch</legend>
                 <h4 id="fill-text">If you would like to get in touch and have any questions about project or any work I have done, feel free to fill the form below or send me an email. </h4>
                 <div class="uk-margin">
-                    <input id="name-input" class="uk-input" type="text" placeholder="Name">
+                    <input id="name-input" class="uk-input" type="text" name="name" placeholder="Name">
                 </div>
 
                 <div class="uk-margin">
-                  <input id="email-input" class="uk-input" type="text" placeholder="Email address">
+                  <input id="email-input" class="uk-input" type="text" name="mail" placeholder="Email address">
                 </div>
 
                 <div class="uk-margin">
-                    <textarea id="mes-input" class="uk-textarea" rows="5" placeholder="Message"></textarea>
+                    <textarea id="mes-input" class="uk-textarea" rows="5" type="text" name="comment" placeholder="Message"></textarea>
                 </div>
-                <button class="uk-button uk-button-default" id="sub-btn">Submit</button>
+                <button class="uk-button uk-button-default" type="submit" id="sub-btn">Submit</button>
             </fieldset>
           </form>
         </div>
