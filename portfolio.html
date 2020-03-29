@@ -9,7 +9,11 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/css/uikit.min.css" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Skip Khamvongsa | Full Stack Developer</title>
+  
 </head>
 
 <body id="bodie">
@@ -44,9 +48,9 @@
           <h1 id="project">Web Apps & Projects</h1>
           <div id="myBtnContainer">
             <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-            <button class="btn" onclick="filterSelection('Gaames')"> Games</button>
-            <button class="btn" onclick="filterSelection('Apps')"> Apps</button>
-            <button class="btn" onclick="filterSelection('Project')"> Projects</button>
+            <button class="btn" onclick="filterSelection('game')"> Games</button>
+            <button class="btn" onclick="filterSelection('app')"> Apps</button>
+            <button class="btn" onclick="filterSelection('project')"> Projects</button>
           </div>
 
         </div>
@@ -56,68 +60,171 @@
       <div class="col-md-12">
         <div class="uk-grid-small" style="display: flex;" uk-grid>
           <div class="uk-text-center" style="display: flex;">
-            <div class="uk-inline-clip uk-transition-toggle uk-black" tabindex="0">
-              <a href="https://skip1113.github.io/class-pro-1/index.html"><img src="assets/images/trails-pro.png" width="95%" alt=""></a>
+            <div class="column project uk-inline-clip uk-transition-toggle uk-black" tabindex="0">
+              <a href="https://skip1113.github.io/class-pro-1/index.html"><img src="assets/images/trails-pro.png"
+                  width="95%" alt=""></a>
               <div class="uk-position-center">
-                <div class="uk-transition-slide-top-small"><h4 class="uk-margin-remove">Project:</h4></div>
-                <div class="uk-transition-slide-bottom-small"><h4 class="uk-margin-remove">Trails on Tap</h4></div>
+                <div class="uk-transition-slide-top-small">
+                  <h4 class="uk-margin-remove">Project:</h4>
+                </div>
+                <div class="uk-transition-slide-bottom-small">
+                  <h4 class="uk-margin-remove">Trails on Tap</h4>
+                </div>
+              </div>
             </div>
-            </div>
-            <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
-              <a href="https://skip1113.github.io/unit-4-game/"><img src="assets/images/crystals.png" width="95%" alt=""></a>
+            <div class="column game uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+              <a href="https://skip1113.github.io/unit-4-game/"><img src="assets/images/crystals.png" width="95%"
+                  alt=""></a>
               <div class="uk-position-center">
-                <div class="uk-transition-slide-top-small"><h4 class="uk-margin-remove">Game:</h4></div>
-                <div class="uk-transition-slide-bottom-small"><h4 class="uk-margin-remove">Crystal Game</h4></div>
-            </div>
+                <div class="uk-transition-slide-top-small">
+                  <h4 class="uk-margin-remove">Game:</h4>
+                </div>
+                <div class="uk-transition-slide-bottom-small">
+                  <h4 class="uk-margin-remove">Crystal Game</h4>
+                </div>
+              </div>
             </div>
 
           </div>
         </div>
       </div>
     </div>
-    
+
     <div class="row" id="row2">
       <div class="col-md-12">
         <div class="uk-grid-small" style="display: flex;" uk-grid>
           <div class="uk-text-center" style="display: flex;">
-            <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
-              <a href="https://skip1113.github.io/GIFtastic/index.html"><img src="assets/images/GiphyApp.png" width="95%" alt=""></a>
-                <div class="uk-position-center">
-                  <div class="uk-transition-slide-top-small"><h4 class="uk-margin-remove">App:</h4></div>
-                  <div class="uk-transition-slide-bottom-small"><h4 class="uk-margin-remove">Giphy App</h4></div>
+            <div class="column app uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+              <a href="https://skip1113.github.io/GIFtastic/index.html"><img src="assets/images/GiphyApp.png"
+                  width="95%" alt=""></a>
+              <div class="uk-position-center">
+                <div class="uk-transition-slide-top-small">
+                  <h4 class="uk-margin-remove">App:</h4>
+                </div>
+                <div class="uk-transition-slide-bottom-small">
+                  <h4 class="uk-margin-remove">Giphy App</h4>
+                </div>
               </div>
             </div>
-          <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
-            <a href="https://skip1113.github.io/TriviaGame/"><img src="assets/images/simpsonsTriv.png" width="95%" alt=""></a>
-            <div class="uk-position-center">
-              <div class="uk-transition-slide-top-small"><h4 class="uk-margin-remove">Game:</h4></div>
-              <div class="uk-transition-slide-bottom-small"><h4 class="uk-margin-remove">Simpsons Trivia</h4></div>
+            <div class="column game uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+              <a href="https://skip1113.github.io/TriviaGame/"><img src="assets/images/simpsonsTriv.png" width="95%"
+                  alt=""></a>
+              <div class="uk-position-center">
+                <div class="uk-transition-slide-top-small">
+                  <h4 class="uk-margin-remove">Game:</h4>
+                </div>
+                <div class="uk-transition-slide-bottom-small">
+                  <h4 class="uk-margin-remove">Simpsons Trivia</h4>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    
-    <div class="row" id="row3">
-      <div class="col-md-12">
-        <div class="uk-grid-small" style="display: flex;" uk-grid>
-          <div class="uk-text-center" style="display: flex;">
-            <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
-              <a href="https://skip1113.github.io/Word-Guess-Game/index.html"><img src="assets/images/wordgame.png" width="95%" alt=""></a>
-                <div class="uk-position-center">
-                  <div class="uk-transition-slide-top-small"><h4 class="uk-margin-remove">Game:</h4></div>
-                  <div class="uk-transition-slide-bottom-small"><h4 class="uk-margin-remove">Word Guess Game</h4></div>
+
+        <div class="row" id="row3">
+          <div class="col-md-12">
+            <div class="uk-grid-small" style="display: flex;" uk-grid>
+              <div class="uk-text-center" style="display: flex;">
+                <div class="column game uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+                  <a href="https://skip1113.github.io/Word-Guess-Game/index.html"><img src="assets/images/wordgame.png"
+                      width="95%" alt=""></a>
+                  <div class="uk-position-center">
+                    <div class="uk-transition-slide-top-small">
+                      <h4 class="uk-margin-remove">Game:</h4>
+                    </div>
+                    <div class="uk-transition-slide-bottom-small">
+                      <h4 class="uk-margin-remove">Word Guess Game</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="column app uk-inline-clip uk-transition-toggle uk-black" tabindex="0">
+                  <a href="https://skip1113.github.io/FireTrain/index.html"><img src="assets/images/trainapp.png"
+                      width="95%" alt=""></a>
+                  <div class="uk-position-center">
+                    <div class="uk-transition-slide-top-small">
+                      <h4 class="uk-margin-remove">App:</h4>
+                    </div>
+                    <div class="uk-transition-slide-bottom-small">
+                      <h4 class="uk-margin-remove">Train Schedule App</h4>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          <div class="uk-inline-clip uk-transition-toggle uk-black" tabindex="0">
-            <a href="https://skip1113.github.io/FireTrain/index.html"><img src="assets/images/trainapp.png" width="95%" alt=""></a>
-            <div class="uk-position-center">
-              <div class="uk-transition-slide-top-small"><h4 class="uk-margin-remove">App:</h4></div>
-              <div class="uk-transition-slide-bottom-small"><h4 class="uk-margin-remove">Train Schedule App</h4></div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Footer Content</h5>
+          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Social Media Links</h5>
+            <a href="https://github.com/skip1113?tab=repositories"><i class="fa fa-github-square" style="font-size:36px" id="git-con"></i></a>
+            <a href="https://www.linkedin.com/in/skip-khamvongsa-7266a119b/"><i class="fa fa-linkedin-square" style="font-size:36px" id="link-con"></i></a>
+            <a href="https://www.facebook.com/skip.khamvongsa"><i class="fa fa-facebook-square" style="font-size:36px" id="face-con"></i></a>
+            <a href="#"><i class="fa fa-twitter-square" style="font-size:36px" id="tweet-con"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2020 Copyright Text
+      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    filterSelection("all")
+    function filterSelection(c) {
+      var x, i;
+      x = document.getElementsByClassName("column");
+      if (c == "all") c = "";
+      for (i = 0; i < x.length; i++) {
+        w3RemoveClass(x[i], "show");
+        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+      }
+    }
+    
+    function w3AddClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+      }
+    }
+    
+    function w3RemoveClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        while (arr1.indexOf(arr2[i]) > -1) {
+          arr1.splice(arr1.indexOf(arr2[i]), 1);     
+        }
+      }
+      element.className = arr1.join(" ");
+    }
+    
+    
+    // Add active class to the current button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function(){
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+    </script>
 
 </body>
 

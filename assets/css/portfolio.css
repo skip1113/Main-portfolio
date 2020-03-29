@@ -2,9 +2,18 @@
     background-color: #f5f5f5;
     
 }
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
 #full-nav-one{
     padding-top: 20px;
-    padding-bottom: 60px;
+    padding-bottom: 130px;
     background-image: url("https://miro.medium.com/max/2000/1*ZeixM2OCyy_xUEKMnSp_bQ.png");
 }
 .navbar-brand{
