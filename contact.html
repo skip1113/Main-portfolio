@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Skip Khamvongsa | Full Stack Developer</title>
 </head>
-<body>
+<body id="bodie">
   <nav class="navbar navbar-inverse">
     <div class="container-fluid navbar-left">
       <div class="navbar-header navbar-nav navbar-left" id="full-nav">
@@ -33,41 +33,43 @@
       </ul>
     </div>
   </nav>
-  <div class="row">
-    <div class="col-md-12" id="full-form">
-      <div class="col-md-5" id="input-form">
-        <form>
-          <fieldset class="uk-fieldset" id="form-field">
+  <div class="container" id="form-container">
+    <div class="row" id="form-container">
+      <div class="col-md-12" id="full-form">
+        <div class="col-md-8" id="input-form">
+          <form>
+            <fieldset class="uk-fieldset" id="form-field">
 
-              <legend class="uk-legend" id="get-text">Get in Touch</legend>
-              <h4 id="fill-text">Please fill out this form or send me a email and we will be in touch as soon as possible. </h4>
-              <div class="uk-margin">
-                  <input id="name-input" class="uk-input" type="text" placeholder="Name">
-              </div>
+                <legend class="uk-legend" id="get-text">Get in Touch</legend>
+                <h4 id="fill-text">If you would like to get in touch and have any questions about project or any work I have done, feel free to fill the form below or send me an email. </h4>
+                <div class="uk-margin">
+                    <input id="name-input" class="uk-input" type="text" placeholder="Name">
+                </div>
 
-              <div class="uk-margin">
-                <input id="email-input" class="uk-input" type="text" placeholder="Email address">
-              </div>
+                <div class="uk-margin">
+                  <input id="email-input" class="uk-input" type="text" placeholder="Email address">
+                </div>
 
-              <div class="uk-margin">
-                  <textarea id="mes-input" class="uk-textarea" rows="5" placeholder="Message"></textarea>
-              </div>
-              <button class="uk-button uk-button-default" id="sub-btn">Submit</button>
-          </fieldset>
-        </form>
-      </div>
-        <div id="right-text" class="col-md-7">
-          <h4>Connect with me in other ways:</h4>
-          
-          <h6>You may email me at: skipk95@gmail.com</h6>
-          <br>
-          <h4>Social Links:</h4>
-          <i class="fa fa-github-square" style="font-size:36px"></i>
-          <i class="fa fa-linkedin-square" style="font-size:36px"></i>
-          <i class="fa fa-facebook-square" style="font-size:36px"></i>
+                <div class="uk-margin">
+                    <textarea id="mes-input" class="uk-textarea" rows="5" placeholder="Message"></textarea>
+                </div>
+                <button class="uk-button uk-button-default" id="sub-btn">Submit</button>
+            </fieldset>
+          </form>
         </div>
+          <div id="right-text" class="col-md-4">
+            <h4>Connect with me in other ways:</h4>
+            
+            <h6>Email me at<a href="#"> Skipk95@gmail.com</a></h6>
+            
+            <h4>Social Links:</h4>
+            <a href="#"><i class="fa fa-github-square" style="font-size:36px" id="git-con"></i></a>
+            <a href="#"><i class="fa fa-linkedin-square" style="font-size:36px" id="link-con"></i></a>
+            <a href="#"><i class="fa fa-facebook-square" style="font-size:36px" id="face-con"></i></a>
+            <a href="#"><i class="fa fa-twitter-square" style="font-size:36px" id="tweet-con"></i></a>
+          </div>
+      </div>
     </div>
   </div>
- 
 </body>
 </html>

@@ -1,3 +1,6 @@
+#bodie{
+    background-color: #d6d2d2;
+}
 .navbar-brand{
     color: #5f5a5a;
 }
@@ -50,15 +53,31 @@ nav{
 }
 #form-field{
     margin-left: 20px;
-    margin-top: 40px;;
+    margin-top: 60px;;
 }
 #right-text{
-    margin-top: 40px;
+    margin-top: 60px;
 }
 #get-text{
-    font-weight: bold;
+    font-size: 2em;
+
 }
 #fill-text{
     padding-bottom: 15px;
     margin-top: 10px;
+}
+#git-con{
+    padding-right: 5px;
+    color: black;
+}
+#link-con{
+    padding-right: 5px;
+    color: black;
+}
+#face-con{
+    padding-right: 5px;
+    color: black;
+}
+#tweet-con{
+    color: black;
 }
