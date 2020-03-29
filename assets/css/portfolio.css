@@ -1,24 +1,74 @@
+/* #bodie{
+    background-color: #5f5a5af5;
+    
+} */
+#full-nav-one{
+    padding-top: 20px;
+    padding-bottom: 60px;
+    background-image: url("https://miro.medium.com/max/2000/1*ZeixM2OCyy_xUEKMnSp_bQ.png");
+}
 .navbar-brand{
-    color: #5f5a5a;
+    color: #9d9d9d;
+}
+#develope{
+    color: #9d9d9d;
+}
+#project{
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Montserrat Subrayada', sans-serif;
 }
 #name-logo{
     font-size: 30px;
+    color: #9d9d9d;
 }
 #full-nav{
     padding-top: 40px;
 }
 #about-link{
-    color: #9d9d9d;
+    color: azure;
     padding-right: 15px;
     font-size: 20px;
 }
 #port-link{
-    color: #9d9d9d;
+    color: azure;
     padding-right: 15px;
     font-size: 20px;
 }
 #cont-link{
-    color: #9d9d9d;
+    color: azure;
     padding-right: 60px;
     font-size: 20px;
 }
+#myBtnContainer{
+    padding-top: 20px;
+    text-align: center;
+}
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+#row1{
+    padding-top: 20px;
+}
+ #row2{
+     padding-top: 30px;
+ }
+ #row3{
+     padding-top: 30px;
+ }
+ #img1{
+     max-width: 95%;
+ }

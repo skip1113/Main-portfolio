@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/css/uikit.min.css" />
-    <title>Skip Khamvongsa | Full Stack Developer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/css/uikit.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada&display=swap" rel="stylesheet">
+  <title>Skip Khamvongsa | Full Stack Developer</title>
 </head>
-<body>
-  <nav class="navbar navbar-inverse" id="full-nav">
+
+<body id="bodie">
+  <nav class="navbar navbar-inverse" id="full-nav-one">
     <div class="container-fluid navbar-left">
-      <div class="navbar-header navbar-nav navbar-left">
+      <div class="navbar-header navbar-nav navbar-left" id="full-nav-two">
         <a class="navbar-brand" href="#" id="name-logo"><strong>Skip Khamvongsa</a></strong>
         <a id="develope">Full Stack Developer & Web Designer</a>
       </div>
-      
-        
+
+
       <ul class="nav justify-content-end">
         <li class="nav-item">
           <a href="index.html" id="about-link">About</a>
@@ -32,6 +36,89 @@
       </ul>
     </div>
   </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="col-md-10">
+          <h1 id="project">Web Apps & Projects</h1>
+          <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('Gaames')"> Games</button>
+            <button class="btn" onclick="filterSelection('Apps')"> Apps</button>
+            <button class="btn" onclick="filterSelection('Project')"> Projects</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="row" id="row1">
+      <div class="col-md-12">
+        <div class="uk-grid-small" style="display: flex;" uk-grid>
+          <div class="uk-text-center" style="display: flex;">
+            <div class="uk-inline-clip uk-transition-toggle uk-black" tabindex="0">
+              <img src="assets/images/trails-pro.png" width="95%" alt="">
+              <div class="uk-position-center">
+                <div class="uk-transition-slide-top-small"><h4 class="uk-margin-remove">Project</h4></div>
+                <div class="uk-transition-slide-bottom-small"><h4 class="uk-margin-remove">Trails on Tap</h4></div>
+            </div>
+            </div>
+            <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+              <img src="assets/images/crystals.png" width="95%" alt="">
+              <div class="uk-position-center">
+                <div class="uk-transition-slide-top-small"><h4 class="uk-margin-remove">Game</h4></div>
+                <div class="uk-transition-slide-bottom-small"><h4 class="uk-margin-remove">Crystal Game</h4></div>
+            </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
     
+    <div class="row" id="row2">
+      <div class="col-md-12">
+        <div class="uk-grid-small" style="display: flex;" uk-grid>
+          <div class="uk-text-center" style="display: flex;">
+            <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+                <img src="assets/images/GiphyApp.png" width="95%" alt="">
+                <div class="uk-position-center">
+                  <div class="uk-transition-slide-top-small"><h4 class="uk-margin-remove">App</h4></div>
+                  <div class="uk-transition-slide-bottom-small"><h4 class="uk-margin-remove">Giphy App</h4></div>
+              </div>
+            </div>
+          <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+            <img src="assets/images/simpsonsTriv.png" width="95%" alt="">
+            <div class="uk-position-center">
+              <div class="uk-transition-slide-top-small"><h4 class="uk-margin-remove">Game</h4></div>
+              <div class="uk-transition-slide-bottom-small"><h4 class="uk-margin-remove">Simpsons Trivia</h4></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row" id="row3">
+      <div class="col-md-12">
+        <div class="uk-grid-small" style="display: flex;" uk-grid>
+          <div class="uk-text-center" style="display: flex;">
+            <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+                <img src="assets/images/wordgame.png" width="95%" alt="">
+                <div class="uk-position-center">
+                  <div class="uk-transition-slide-top-small"><h4 class="uk-margin-remove">Game</h4></div>
+                  <div class="uk-transition-slide-bottom-small"><h4 class="uk-margin-remove">Word Guess Game</h4></div>
+              </div>
+            </div>
+          <div class="uk-inline-clip uk-transition-toggle uk-black" tabindex="0">
+            <img src="assets/images/trainapp.png" width="95%" alt="">
+            <div class="uk-position-center">
+              <div class="uk-transition-slide-top-small"><h4 class="uk-margin-remove">App</h4></div>
+              <div class="uk-transition-slide-bottom-small"><h4 class="uk-margin-remove">Train Schedule App</h4></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </body>
+
 </html>
