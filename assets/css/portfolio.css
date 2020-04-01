@@ -99,8 +99,8 @@ body {
   
   /* Create three equal columns that floats next to each other */
   .column {
-    /* float: left; */
-    /* width: 33.33%; */
+    /* float: right; */
+    width: 60%;
     display: none; /* Hide all elements by default */
   }
   
