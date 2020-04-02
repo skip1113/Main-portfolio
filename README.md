@@ -1,6 +1,6 @@
 # My Porfolio
 
-* Live Link to my Portfolio: "https://skip1113.github.io/skip1113/"
+* Live Link to my Portfolio: "https://skip1113.github.io/Main-portfolio/"
 
 This is my portfolio I made with HTML/CSS. Theres a small Bio, contact info, and links and images to my work.
 To get in touch please Email me with the provided social media link, my email, or the form in the contact tab.
