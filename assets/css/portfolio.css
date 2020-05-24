@@ -17,10 +17,10 @@ body {
     background-image: url("https://miro.medium.com/max/2000/1*ZeixM2OCyy_xUEKMnSp_bQ.png");
 }
 .navbar-brand{
-    color: #9d9d9d;
+    color: #9d9d9d17;
 }
 #develope{
-    color: #9d9d9d;
+    color: #6d6d6d;
 }
 #project{
     padding-top: 20px;
@@ -29,23 +29,23 @@ body {
 }
 #name-logo{
     font-size: 30px;
-    color: #9d9d9d;
+    color: #6d6d6d;
 }
 #full-nav{
     padding-top: 40px;
 }
 #about-link{
-    color: azure;
+    color: rgb(124, 124, 124);
     padding-right: 15px;
     font-size: 20px;
 }
 #port-link{
-    color: azure;
+    color: rgb(124, 124, 124);
     padding-right: 15px;
     font-size: 20px;
 }
 #cont-link{
-    color: azure;
+    color: rgb(124, 124, 124);
     padding-right: 60px;
     font-size: 20px;
 }
@@ -71,8 +71,8 @@ body {
  }
  #row6 {
    padding-top: 30px;
-   padding-left: 300px;
-   margin-left: 87px;
+   
+   
  }
  #img1{
      max-width: 95%;
@@ -149,4 +149,19 @@ body {
   .btn.active {
     background-color: #666;
     color: white;
+  }
+  .vertical-nav {
+    min-width: 16rem;
+    width: 16rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+  }
+  .page-content {
+    width: calc(100% - 17rem);
+    margin-left: 17rem;
+    transition: all 0.4s;
   }
