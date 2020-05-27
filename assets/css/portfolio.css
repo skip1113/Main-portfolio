@@ -12,8 +12,9 @@ body {
     flex: 1 0 auto;
   }
 #full-nav-one{
-    padding-top: 20px;
-    padding-bottom: 100px;
+  
+    padding-top: 40px;
+    padding-bottom: 80px;
     background-image: url("https://miro.medium.com/max/2000/1*ZeixM2OCyy_xUEKMnSp_bQ.png");
 }
 .navbar-brand{
@@ -35,19 +36,37 @@ body {
     padding-top: 40px;
 }
 #about-link{
-    color: rgb(124, 124, 124);
-    padding-right: 15px;
-    font-size: 20px;
+  margin: 3px;
+  text-align: center;
+  color: rgb(189, 189, 189);
+  background-color: #313131;
+  padding: 5px;
+  font-size: 20px;
+  border: 2px solid #222;
+  border-radius: 5px;
+  box-shadow: 1px 1px 0 rgba(0,0,0,.25);
 }
 #port-link{
-    color: rgb(124, 124, 124);
-    padding-right: 15px;
-    font-size: 20px;
+  margin: 3px;
+  text-align: center;
+  color: rgb(189, 189, 189);
+  background-color: #313131;
+  padding: 5px;
+  font-size: 20px;
+  border: 2px solid #222;
+  border-radius: 5px;
+  box-shadow: 1px 1px 0 rgba(0,0,0,.25);
 }
 #cont-link{
-    color: rgb(124, 124, 124);
-    padding-right: 60px;
-    font-size: 20px;
+  margin: 3px;
+  text-align: center;
+  color: rgb(189, 189, 189);
+  background-color: #313131;
+  padding: 5px;
+  font-size: 20px;
+  border: 2px solid #222;
+  border-radius: 5px;
+  box-shadow: 1px 1px 0 rgba(0,0,0,.25);
 }
 #myBtnContainer{
     padding-top: 20px;
