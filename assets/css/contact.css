@@ -20,19 +20,37 @@ nav{
     padding-bottom: 60px;
 }
 #about-link{
-    color: white;
-    padding-right: 15px;
-    font-size: 20px;
+    margin: 3px;
+  text-align: center;
+  color: white;
+  background-color: #313131;
+  padding: 5px;
+  font-size: 20px;
+  border: 2px solid #222;
+  border-radius: 5px;
+  box-shadow: 1px 1px 0 rgba(0,0,0,.25);
 }
 #port-link{
-    color: white;
-    padding-right: 15px;
-    font-size: 20px;
+    margin: 3px;
+  text-align: center;
+  color: white;
+  background-color: #313131;
+  padding: 5px;
+  font-size: 20px;
+  border: 2px solid #222;
+  border-radius: 5px;
+  box-shadow: 1px 1px 0 rgba(0,0,0,.25);
 }
 #cont-link{
-    color: white;
-    padding-right: 60px;
-    font-size: 20px;
+    margin: 3px;
+  text-align: center;
+  color: white;
+  background-color: #313131;
+  padding: 5px;
+  font-size: 20px;
+  border: 2px solid #222;
+  border-radius: 5px;
+  box-shadow: 1px 1px 0 rgba(0,0,0,.25);
 }
 #input-form{
     float: left;
