@@ -10,7 +10,7 @@
 #about-link{
     margin: 3px;
     text-align: center;
-    color: rgb(189, 189, 189);
+    color: rgb(228, 227, 227);
     background-color: #313131;
     padding: 5px;
     font-size: 20px;
@@ -21,7 +21,7 @@
 #port-link{
     margin: 3px;
     text-align: center;
-    color: rgb(189, 189, 189);
+    color: rgb(228, 227, 227);
     background-color: #313131;
     padding: 5px;
     font-size: 20px;
@@ -32,7 +32,7 @@
 #cont-link{
     margin: 3px;
     text-align: center;
-    color: rgb(189, 189, 189);
+    color: rgb(228, 227, 227);
     background-color: #313131;
     padding: 5px;
     font-size: 20px;
@@ -46,7 +46,9 @@
 }
 body{
     background-image: url("https://miro.medium.com/max/2000/1*ZeixM2OCyy_xUEKMnSp_bQ.png");
-    
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .uk-height{
     height: 850px;
