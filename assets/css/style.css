@@ -7,6 +7,9 @@
 #full-nav{
     padding-top: 40px;
 }
+#develope {
+    color: #5f5a5a;
+}
 #about-link{
     margin: 3px;
     text-align: center;
@@ -17,6 +20,7 @@
     border: 2px solid #222;
     border-radius: 5px;
     box-shadow: 1px 1px 0 rgba(0,0,0,.25);
+    text-decoration: none;
 }
 #port-link{
     margin: 3px;
@@ -28,6 +32,7 @@
     border: 2px solid #222;
     border-radius: 5px;
     box-shadow: 1px 1px 0 rgba(0,0,0,.25);
+    text-decoration: none;
 }
 #cont-link{
     margin: 3px;
@@ -39,6 +44,7 @@
     border: 2px solid #222;
     border-radius: 5px;
     box-shadow: 1px 1px 0 rgba(0,0,0,.25);
+    text-decoration: none;
 }
 .nav-title{
     margin-top: 15px;
@@ -46,7 +52,7 @@
 }
 body{
     background-image: url("https://miro.medium.com/max/2000/1*ZeixM2OCyy_xUEKMnSp_bQ.png");
-    background-position: 50% 50%;
+    background-position: 50% 0%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -58,7 +64,7 @@ body{
     margin-bottom: auto!important;
 }
 .uk-text-center{
-    
+    color: rgba(238, 238, 238, 0.7);
     font-size: 20px;
 }
 #h1-top{
