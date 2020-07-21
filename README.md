@@ -1,12 +1,18 @@
 # My Porfolio
 
-* Live Link to my Portfolio: "https://skip1113.github.io/Main-portfolio/"
+## Live Link to my Portfolio: "https://skip1113.github.io/Main-portfolio/"
 
-This is my portfolio I made with HTML/CSS. Theres a small Bio, contact info, and links and images to my work.
-To get in touch please Email me with the provided social media link, my email, or the form in the contact tab.
+Welcome to my portfolio. I have created this project from what I learned becoming a Full-stack Developer. 
+Feel free to take a look at what I've made during my time at University of Denver. I am excited for my career deployment, and to learn more. My portfolio is where you can find my contact and more information about myself and my writen code. 
 
-Please enjoy this page about me! It may not be too special but I know this is some of my experience and knowledge of what i have learned. 
-More to come with more to learn, stay tuned! 
+Please enjoy this portfolio about my work and experience. I look forward to connect and discuss further questions about my career path.
 
-Some features: Filtering projects and apps by buttons, Mobile Responsive, and Multiple CSS/Javascript libraries.
+![](/assets/images/portfolio-home.png)
 
+### Some features: Filtering projects and apps by buttons, Mobile Responsive, and Multiple CSS/Javascript libraries.
+
+## Technology used
+* Javascript
+* jQuery
+* HTML
+* CSS
