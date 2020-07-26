@@ -6,7 +6,14 @@
 }
 nav{
     background-image: url("https://www.wherevermag.com/wp-content/uploads/2019/03/Ulysses-Pro-Writing-Hero-4.jpg");
-    
+}
+#submit-btn {
+    background-color: cadetblue;
+    color: rgb(24, 24, 24);
+    padding: 10px;
+  font-size: 20px;
+  /* border: 2px solid white; */
+  border-radius: 5px;
 }
 #develope{
     color: white;
