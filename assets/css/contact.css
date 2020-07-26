@@ -81,10 +81,10 @@ nav{
 }
 #get-text{
     font-size: 2em;
-
+    margin-top: 25px;
 }
 #fill-text{
-    padding-bottom: 15px;
+    /* padding-bottom: 10px; */
     margin-top: 10px;
 }
 #git-con{
