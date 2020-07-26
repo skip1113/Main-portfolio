@@ -1,0 +1,23 @@
+{
+  "name": "skip1113",
+  "version": "1.0.0",
+  "description": "Welcome to my portfolio. I have created this project from what I learned becoming a Full-stack Developer. \r Feel free to take a look at what I've made during my time at University of Denver. I am excited for my career deployment, and to learn more. My portfolio is where you can find my contact and more information about myself and my writen code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skip1113/skip1113.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skip1113/skip1113/issues"
+  },
+  "homepage": "https://github.com/skip1113/skip1113#readme",
+  "dependencies": {
+    "emailjs-com": "^2.6.3"
+  }
+}
