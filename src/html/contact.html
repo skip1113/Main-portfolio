@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="../assets/css/contact.css">
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/css/uikit.min.css" />
@@ -12,13 +13,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- <script src="jquery-3.5.1.min.js"></script> -->
   <title>Skip Khamvongsa | Full Stack Developer</title>
-  <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script> -->
-  <!-- <script type="text/javascript">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+  <script type="text/javascript">
     (function () {
       emailjs.init("user_cZEMmldAUAYzQvfL58PgF");
     })();
   </script>
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
     function submitForm(event) {
       event.preventDefault();
       emailjs.sendForm(document.getElementById('service_id').value,
@@ -28,8 +29,8 @@
         }, function (error) {
           console.log(error);
         });
-    } -->
-  <!-- </script> -->
+    }
+  </script> -->
 </head>
 
 <body id="bodie">
@@ -65,18 +66,19 @@
             have done, feel free to fill the form below or send me an email. </h4>
           <form class="form">
             <fieldset class="uk-fieldset" id="form-field">
-            <div class="uk-margin">
-            <input id="user_id" class="uk-input form__input" type="text" name="name" placeholder="Name">
-            </div>
-            <div class="uk-margin">
-            <input id="service_id" class="uk-input form__input" type="email" name="email" placeholder="Email address">
-            </div>
-            <div class="uk-margin">
-            <textarea id="template_id" class="uk-textarea form__input" rows="5" type="text" name="message"
+              <div class="uk-margin">
+                <input id="user_id" class="uk-input form__input" type="text" name="name" placeholder="Name">
+              </div>
+              <div class="uk-margin">
+                <input id="service_id" class="uk-input form__input" type="email" name="email"
+                  placeholder="Email address">
+              </div>
+              <div class="uk-margin">
+                <textarea id="template_id" class="uk-textarea form__input" rows="5" type="text" name="notes"
                   placeholder="Message"></textarea>
-            </div>
-            <input type="submit" value="Send" id="submit-btn" class="form__input form__input--button">
-            <!-- <button class="uk-button uk-button-default" type="submit" value="send" id="sub-btn">Submit</button> -->
+              </div>
+              <input type="submit" value="Send" id="submit-btn" class="form__input form__input--button">
+              <!-- <button class="uk-button uk-button-default" type="submit" value="send" id="sub-btn">Submit</button> -->
             </fieldset>
           </form>
         </div>
@@ -92,13 +94,29 @@
               style="font-size:36px" id="link-con"></i></a>
           <a href="https://www.facebook.com/skip.khamvongsa" target="_blank"><i class="fa fa-facebook-square"
               style="font-size:36px" id="face-con"></i></a>
-          <a href="https://docs.google.com/document/d/1VoWWIoP_HFb6HezpgopxzTTlAUwX2dl_QzlXUDcHmEw/edit?usp=sharing"><i
+          <a href="https://docs.google.com/document/d/1CfHprAQU457sMonjBTZl2bZsHv33O6Itgj-AeYNztfg/edit?usp=sharing" target="_blank"><i
               class="fa fa-file-pdf-o" style="font-size:31px" id="tweet-con"></i></a>
         </div>
       </div>
     </div>
   </div>
-  <script src="../js/main.js"></script>
+  <script>
+    const sendEmail = e => {
+      e.preventDefault()
+      var template_params = {
+        "name": formdata.name,
+        "email": formdata.email,
+        "notes": formdata.message
+      }
+      var service_id = "gmail";
+      var template_id = "contact_page";
+      window.emailjs.send(service_id, template_id, template_params);
+
+    }
+
+    const form = document.querySelector('.form')
+    form.addEventListener('submit', sendEmail)
+  </script>
 </body>
 
 </html>
