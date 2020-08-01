@@ -7,7 +7,7 @@ Feel free to take a look at what I've made during my time at University of Denve
 
 Please enjoy this portfolio about my work and experience. I look forward to connect and discuss further questions about my career path.
 
-![](/assets/images/portfolio-home.png)
+![](/src/assets/images/portfolio-home.png)
 
 ### Some features: Filtering projects and apps by buttons, Mobile Responsive, and Multiple CSS/Javascript libraries.
 
