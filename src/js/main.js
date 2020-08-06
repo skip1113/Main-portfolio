@@ -28,3 +28,19 @@ const sendEmail = e => {
 
 const form = document.querySelector('.form')
 form.addEventListener('submit', sendEmail)
+
+    const sendEmail = e => {
+      e.preventDefault()
+      var template_params = {
+        "name": formdata.name,
+        "email": formdata.email,
+        "notes": formdata.message
+      }
+      var service_id = "gmail";
+      var template_id = "contact_page";
+      window.emailjs.send(service_id, template_id, template_params);
+
+    }
+
+    const form = document.querySelector('.form')
+    form.addEventListener('submit', sendEmail)
