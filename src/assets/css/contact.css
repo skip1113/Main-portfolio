@@ -1,5 +1,5 @@
 #bodie{
-    background-color: #dfdfdf;
+    background-color: #eeeeee;
 }
 .navbar-brand{
     color: #5f5a5a;
@@ -8,6 +8,12 @@ nav{
     background-image: url("https://www.wherevermag.com/wp-content/uploads/2019/03/Ulysses-Pro-Writing-Hero-4.jpg");
 }
 #user_id {
+    border-radius: 4px;
+}
+#service_id {
+    border-radius: 4px;
+}
+#template_id {
     border-radius: 4px;
 }
 #submit-btn {
@@ -71,7 +77,7 @@ nav{
 }
 
 #full-form{
-    background-color: #dfdfdf;
+    background-color: #eeeeee;
     padding-bottom: 30%;
 }
 #form-field{
