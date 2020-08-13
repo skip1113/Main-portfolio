@@ -9,7 +9,7 @@
 #full-nav{
     padding: 20px;
     padding-bottom: 20px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 #develope {
     color: #5f5a5a;
@@ -79,3 +79,6 @@ body{
 #h1-top{
     font-size: 60px;
 }
+/* #skillSet {
+    margin-top: 8em;
+} */
