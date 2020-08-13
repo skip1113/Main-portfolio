@@ -8,7 +8,7 @@
 }
 #full-nav{
     padding: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 #develope {
@@ -68,7 +68,7 @@ body{
     height: 850px;
 }
 .uk-margin-auto{
-    margin-top: 9%;
+    margin-top: 7%;
     margin-bottom: auto!important;
 }
 .uk-text-center{
