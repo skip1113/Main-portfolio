@@ -12,16 +12,16 @@ body {
     flex: 1 0 auto;
   }
 #full-nav-one{
-  
+  background-color: rgba(0, 0, 0, 0.7);
     padding-top: 40px;
-    padding-bottom: 80px;
-    background-image: url("https://miro.medium.com/max/2000/1*ZeixM2OCyy_xUEKMnSp_bQ.png");
+    padding-bottom: 60px;
+    /* background-image: url("https://miro.medium.com/max/2000/1*ZeixM2OCyy_xUEKMnSp_bQ.png"); */
 }
 .navbar-brand{
     color: #9d9d9d17;
 }
 #develope{
-    color: #6d6d6d;
+    color: #ffff;
 }
 #project{
     padding-top: 20px;
@@ -30,15 +30,15 @@ body {
 }
 #name-logo{
     font-size: 30px;
-    color: #6d6d6d;
+    color: #ffff;
 }
 #full-nav{
     padding-top: 40px;
 }
 #about-link{
-  margin: 3px;
+  margin: 5px;
   text-align: center;
-  color: rgb(228, 227, 227);
+  color: rgb(255, 255, 255);
   background-color: #313131;
   padding: 5px;
   font-size: 20px;
@@ -48,9 +48,9 @@ body {
   text-decoration: none;
 }
 #port-link{
-  margin: 3px;
+  margin: 5px;
   text-align: center;
-  color: rgb(228, 227, 227);
+  color: rgb(255, 255, 255);
   background-color: #313131;
   padding: 5px;
   font-size: 20px;
@@ -60,9 +60,9 @@ body {
   text-decoration: none;
 }
 #cont-link{
-  margin: 3px;
+  margin: 5px;
   text-align: center;
-  color: rgb(228, 227, 227);
+  color: rgb(255, 255, 255);
   background-color: #313131;
   padding: 5px;
   font-size: 20px;
