@@ -33,11 +33,11 @@ nav{
     padding-bottom: 60px;
 }
 #about-link{
-    margin: 3px;
+    margin: 5px;
   text-align: center;
   color: white;
   background-color: #313131;
-  padding: 5px;
+  padding: 7px;
   font-size: 20px;
   border: 2px solid #222;
   border-radius: 5px;
@@ -46,11 +46,11 @@ nav{
 }
 #port-link{
     text-decoration: none;
-    margin: 3px;
+    margin: 5px;
   text-align: center;
   color: white;
   background-color: #313131;
-  padding: 5px;
+  padding: 7px;
   font-size: 20px;
   border: 2px solid #222;
   border-radius: 5px;
@@ -58,11 +58,11 @@ nav{
 }
 #cont-link{
     text-decoration: none;
-    margin: 3px;
+    margin: 5px;
   text-align: center;
   color: white;
   background-color: #313131;
-  padding: 5px;
+  padding: 7px;
   font-size: 20px;
   border: 2px solid #222;
   border-radius: 5px;
