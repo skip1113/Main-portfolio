@@ -209,7 +209,12 @@ body {
   .nite,
   .giphy,
   .train,
-  .bamazon {
+  .bamazon,
+  .friend,
+  .burger,
+  .liri,
+  .google-books,
+  .scraping {
 	  background-size: cover;
 	  background-position: center;
 	  /* background-position: top right; */
@@ -236,6 +241,21 @@ body {
   }
   .bamazon {
 	  background-image: url(../images/Bamazon.png);
+  }
+  .friend {
+	  background-image: url(../images/friend-finder.png);
+  }
+  .burger {
+	  background-image: url(../images/eat-da-burger.png);
+  }
+  .liri {
+	  background-image: url(../images/liri-bot.png);
+  }
+  .scraping {
+	  background-image: url(../images/scraping-mongo.png);
+  }
+  .google-books {
+	  background-image: url(../images/google-books.png);
   }
   /* Style the buttons */
   .btn-success {
