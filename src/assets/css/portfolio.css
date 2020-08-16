@@ -1,0 +1,268 @@
+#bodie{
+    background-color: #c9c9c9;
+    
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  .container {
+      max-width: 1400px;
+  }
+    @media screen and (min-width: 961px) and (max-width: 1880px) {
+      .container {
+        width: 1200px;
+      }
+    }
+    @media screen and (min-width: 961px) and (max-width: 1620px) {
+      .container {
+        width: 960px;
+      }
+    }
+    @media screen and (min-width: 961px) and (max-width: 1320px) {
+      .container {
+        width: 100%;
+      }
+    }
+    @media screen and (max-width: 960px) {
+      .container {
+        width: 100%;
+      }
+    }
+    @media screen and (max-width: 736px) {
+      .container {
+        width: 100%;
+      }
+    }
+#full-nav-one{
+  background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 40px;
+    padding-bottom: 60px;
+    /* background-image: url("https://miro.medium.com/max/2000/1*ZeixM2OCyy_xUEKMnSp_bQ.png"); */
+}
+.navbar-brand{
+    color: #9d9d9d17;
+}
+#develope{
+    color: #ffff;
+}
+#project{
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+#name-logo{
+    font-size: 30px;
+    color: #ffff;
+}
+#full-nav{
+    padding-top: 40px;
+}
+#about-link{
+  margin: 5px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: #313131;
+  padding: 5px;
+  font-size: 20px;
+  border: 2px solid #222;
+  border-radius: 5px;
+  box-shadow: 1px 1px 0 rgba(0,0,0,.25);
+  text-decoration: none;
+}
+#port-link{
+  margin: 5px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: #313131;
+  padding: 5px;
+  font-size: 20px;
+  border: 2px solid #222;
+  border-radius: 5px;
+  box-shadow: 1px 1px 0 rgba(0,0,0,.25);
+  text-decoration: none;
+}
+#cont-link{
+  margin: 5px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: #313131;
+  padding: 5px;
+  font-size: 20px;
+  border: 2px solid #222;
+  border-radius: 5px;
+  box-shadow: 1px 1px 0 rgba(0,0,0,.25);
+  text-decoration: none;
+}
+#myBtnContainer{
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* #row1{
+    padding-top: 20px;
+}
+ #row2{
+     padding-top: 30px;
+ }
+ #row3{
+     padding-top: 30px;
+ }
+ #row4{
+   padding-top: 30px;
+ }
+ #row5{
+   padding-top: 30px;
+ }
+ #row6 {
+   padding-top: 30px;
+ }
+ #row6 {
+  padding-top: 30px;
+}
+#row7 {
+  padding-top: 30px;
+}
+#row8 {
+  padding-top: 30px;
+} */
+ /* #img1{
+     max-width: 95%;
+ } */
+ #footer-link{
+     text-align: center;
+     padding-top: 50px;
+     padding-bottom: 40px;
+ }
+ #git-con{
+    padding-right: 5px;
+    color: black;
+}
+#link-con{
+    padding-right: 5px;
+    color: black;
+}
+#face-con{
+    padding-right: 5px;
+    color: black;
+}
+#tweet-con{
+    color: black;
+}
+/* * {
+    box-sizing: border-box;
+  } */
+  
+  body {
+    /* background-color: #f1f1f1; */
+    
+    font-family: Arial;
+  }
+  
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    /* float: right; */
+    width: 60%;
+    display: none; /* Hide all elements by default */
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  .section-container {
+	  margin: auto;
+	  width: 90%;
+	  overflow: hidden;
+  }
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  #languages {
+	  height: 40px;
+	  width: 40px;
+	  margin-right: 5px;
+	  border-radius: 50%;
+  }
+  .project-item {
+	  padding: 180px 90px;
+	margin-bottom: 10px;
+  }
+  .hoot,
+  .nite,
+  .trails {
+	  background-size: cover;
+	  background-position: center;
+	  /* background-position: top right; */
+  	  transition: all ease-in-out 300ms;
+      position: relative;
+  	  -webkit-box-shadow: 0px 0px 23px 3px rgba(0, 0, 0, 0.2);
+      box-shadow: 0px 0px 23px 3px rgba(0, 0, 0, 0.2);
+      z-index: 3;
+  }
+  .hoot {
+	  background-image: url(../images/hoot-holla.png);
+  }
+  .trails {
+	  background-image: url(../images/trails-pro.png);
+  }
+  .nite {
+	  background-image: url(../images/final-project.png);
+  }
+  /* Style the buttons */
+  .btn-success {
+	border: none;
+	border-radius: 0.125rem;
+    outline: none;
+    margin: 5px;
+    padding: 0.7rem 1.2rem;
+    background: -webkit-linear-gradient(top, #2ab34a 50%, #219b4f 51%);
+    cursor: pointer;
+  }
+  .btn-info {
+	  border: none;
+	  border-radius: 0.125rem;
+	  outline: none;
+	  margin: 5px;
+	  padding: 0.7rem 1.2rem;
+	  background: -webkit-linear-gradient(top, #17a2b8 50%, #138496 51%);
+      cursor: pointer;
+  }
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+  /* .vertical-nav {
+    min-width: 16rem;
+    width: 16rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+  } */
+  /* .page-content {
+    width: calc(100% - 17rem);
+    margin-left: 17rem;
+    transition: all 0.4s;
+  } */

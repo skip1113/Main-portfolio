@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/css/uikit.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/portfolio.css">
+  <title>Skip Khamvongsa | Full Stack Developer</title>
+
+</head>
+
+<body id="bodie">
+  <nav class="navbar navbar-inverse" id="full-nav-one">
+    <div class="container-fluid navbar-left">
+      <div class="navbar-header navbar-nav navbar-left" id="full-nav-two">
+        <a class="navbar-brand" href="index.html" id="name-logo"><strong>Skip Khamvongsa</a></strong>
+        <a id="develope">Full Stack Developer</a>
+      </div>
+
+
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a href="index.html" id="about-link">About</a>
+        </li>
+        <br>
+        <li class="nav-item">
+          <a href="portfolio.html" id="port-link">Portfolio</a>
+        </li>
+        <br>
+        <li class="nav-item">
+          <a href="contact.html" id="cont-link">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="projects">
+    <div class="section-container">
+      <div class="title">
+        <h1> <span id="projectTitle"></span> Projects & Applications</h1>
+      </div>
+      <div class="main-content">
+        <menu id="buttons-menu">
+          <button id="full-projects" class="btn btn-success">Projects</button>
+          <button id="applications" class="btn btn-success">Applications</button>
+          <button id="gameApps" class="btn btn-success">Games</button>
+        </menu>
+        <!-- Main Projects -->
+        <div class="row main-projects">
+          <div class="dotted col-md-5">
+            <!-- Empty Div for Img -->
+            <div class="project-item hoot"></div>
+          </div>
+          <div class="col-md-6">
+            <h3 id="project-name">Hoot & Holla</h3>
+            <p id="project-info">Hoot & Holla is a bloggers application created to hang out with friends while social distancing.
+              The user has the ability to create a account and post blogs, Instant Message, find friends and like their posts.  
+              <br>
+              Some problems we faced were connecting to our database through Passport so we went through the server and corrected the order the syntax was writen in.
+            </p>
+            <div class="skills">
+              <h2>Technologies</h2>
+              <img id="languages" src="../assets/images/javascript-logo.jpg">
+              <img id="languages" src="../assets/images/html-logo.jpg">
+              <img id="languages" src="../assets/images/css-logo.jpg">
+              <img id="languages" src="../assets/images/node-logo.png">
+              <img id="languages" src="../assets/images/express-logo.png">
+              <img id="languages" src="../assets/images/mysql-logo.jpg">
+            </div>
+            <div class="btn-links">
+              <a id="demo" class="btn btn-success" href="https://pure-peak-54891.herokuapp.com/login" target="_blank">Heroku Demo</a>
+              <a id="github" class="btn btn-info" href="github.com/Ragnorok303/Project2DBC" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="row main-projects">
+          
+          <div class="col-md-6">
+            <h3 id="project-name">Nite-tinerary</h3>
+            <p id="project-info">Make it easy to plan and save a night out so you don't forget your plans. Using Ticketmaster and Zomato API
+              the user is able to search and find a concert and a resturant or create your own plan the same day or in the future. Log in simply using everyday applications like 
+              Github, or Amazon and the plans will be saved for you for next time.
+              <br>
+              Problems having while creating this was connecting Mongodb to our passport server. Our solution was to test the models,
+               controllers, and axios calls to see if a collection would be created, and reordered the Express, and connection syntax.
+            </p>
+            <div class="skills">
+              <h2>Technologies</h2>
+              <img id="languages" src="../assets/images/react-logo.png">
+              <img id="languages" src="../assets/images/express-logo.png">
+              <img id="languages" src="../assets/images/node-logo.png">
+              <img id="languages" src="../assets/images/mongodb-logo.png">
+              <img id="languages" src="../assets/images/ajax-logo.png">
+              <img id="languages" src="../assets/images/api-logo.png">
+            </div>
+            <div class="btn-links">
+              <a id="demo" class="btn btn-success" href="https://nitetinerary.herokuapp.com/" target="_blank">Heroku Demo</a>
+              <a id="github" class="btn btn-info" href="https://github.com/imjvdn/DUFinalProject" target="_blank">GitHub</a>
+            </div>
+          </div>
+          <div class="dotted col-md-5">
+            <!-- Empty Div for Img -->
+            <div class="project-item nite"></div>
+          </div>
+        </div>
+        <div class="row main-projects">
+          <div class="dotted col-md-5">
+            <!-- Empty Div for Img -->
+            <div class="project-item trails"></div>
+          </div>
+          <div class="col-md-6">
+            <h3 id="project-name">Trails on Tap</h3>
+            <p id="project-info">Trails on Tap is a serach and plan application using Hiking Project, Open Brewery, and Geocoding API.
+                If you like to go on hikes, and drink craft beers this is the app for you. This allows the user to be able to plan a hike
+                and grab a drink with only one search of either State, City, or Zip code resulting in trails, and breweries within the radius of your search.
+              <br>
+              One problem was that we had to overcome searching by cooardinates and simplify to serach by City or Zip. We used The Geocoding API to convert 
+              the search of City or Zip to Longitude and Latitude so the hiking API would be able to find trails.  
+            </p>
+            <div class="skills">
+              <h2>Technologies</h2>
+              <img id="languages" src="../assets/images/javascript-logo.jpg">
+              <img id="languages" src="../assets/images/html-logo.jpg">
+              <img id="languages" src="../assets/images/css-logo.jpg">
+              <img id="languages" src="../assets/images/ajax-logo.png">
+              <img id="languages" src="../assets/images/api-logo.png">
+              <img id="languages" src="../assets/images/bootstrap-logo.jpg">
+            </div>
+            <div class="btn-links">
+              <a id="demo" class="btn btn-success" href="https://skip1113.github.io/class-pro-1/" target="_blank">Demo</a>
+              <a id="github" class="btn btn-info" href="https://github.com/skip1113/class-pro-1" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="col-md-10">
+          <h1 id="project">Web Apps & Projects</h1>
+          <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('game')" id="gameBtn"> Games</button>
+            <button class="btn" onclick="filterSelection('app')" id="appBtn"> Apps</button>
+            <button class="btn" onclick="filterSelection('project')" id="proBtn"> Projects</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="row" id="row1">
+      <div class="col-md-12 ">
+        <div class="uk-grid-small" style="display: flex;" uk-grid>
+          <div class="uk-text-center" style="display: flex;">
+            <div class="column project uk-inline-clip uk-transition-toggle uk-black" tabindex="0">
+              <a href="https://github.com/skip1113/class-pro-1" target="_blank"><img src="../assets/images/trails-pro.png"
+                  width="95%" alt=""></a>
+              <div class="uk-position-center">
+                <div class="uk-transition-slide-top-small" style="margin-top: 80px;">
+                  <h4 class="uk-margin-remove">Project:</h4>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 10px;">
+                  <h4 class="uk-margin-remove">Trails on Tap</h4>
+                  <a href="https://skip1113.github.io/class-pro-1/" target="_blank"><i class="fa fa-github-square" style="font-size:30px" id="git-con"></i></a>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 70px;">
+                  <h4 class="uk-margin-remove" style=" color: white;">jQuery, Ajax, Firease, Javascript</h4>
+                </div>
+              </div>
+            </div>
+            <div class="column project uk-inline-clip uk-transition-toggle uk-black" tabindex="0">
+              <a href="https://github.com/skip1113/Hoot-Holla-Pro2" target="_blank"><img src="../assets/images/hoot-holla.png"
+                  width="95%" alt=""></a>
+              <div class="uk-position-center">
+                <div class="uk-transition-slide-top-small" style="margin-top: 140px;">
+                  <h4 class="uk-margin-remove">Project:</h4>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 10px;">
+                  <h4 class="uk-margin-remove">Hoot & Holla</h4>
+                  <a href="https://pure-peak-54891.herokuapp.com/login" target="_blank"><i class="fa fa-github-square" style="font-size:30px; color: white; margin-top: 18px;" id="git-con"></i></a>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 10px;">
+                  <h4 class="uk-margin-remove" style=" color: white;">Node.js, MySQL, Express, PassPort, Sequilize</h4>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="row2">
+      <div class="col-md-12">
+        <div class="uk-grid-small" style="display: flex;" uk-grid>
+          <div class="uk-text-center" style="display: flex;">
+            <div class="column project uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+              <a href="https://github.com/imjvdn/DUFinalProject" target="_blank"><img src="../assets/images/final-project.png"
+                  width="95%" alt=""></a>
+              <div class="uk-position-center">
+                <div class="uk-transition-slide-top-small" style="margin-top: 85px;">
+                  <h4 class="uk-margin-remove">Project:</h4>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 10px;">
+                  <h4 class="uk-margin-remove">Nite-tinerary</h4>
+                  <a href="https://nitetinerary.herokuapp.com/" target="_blank"><i class="fa fa-github-square" style="font-size:30px; color: white;" id="git-con"></i></a>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 20px;">
+                  <h4 class="uk-margin-remove" style=" color: white;">MERN Stack, Passport, Axios</h4>
+                </div>
+              </div>
+            </div>
+            <div class="column game uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+              <a href="https://github.com/skip1113/TriviaGame" target="_blank"><img src="../assets/images/simpsonsTriv.png"
+                  width="95%" alt=""></a>
+              <div class="uk-position-center">
+                <div class="uk-transition-slide-top-small" style="margin-top: 80px;">
+                  <h4 class="uk-margin-remove">Game:</h4>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 10px;">
+                  <h4 class="uk-margin-remove">Simpsons Trivia</h4>
+                  <a href="https://skip1113.github.io/TriviaGame/" target="_blank"><i class="fa fa-github-square" style="font-size:30px" id="git-con"></i></a>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 20px;">
+                  <h4 class="uk-margin-remove" style=" color: white;">jQuery, Javascript</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="row3">
+      <div class="col-md-12">
+        <div class="uk-grid-small" style="display: flex;" uk-grid>
+          <div class="uk-text-center" style="display: flex;">
+            <div class="column app uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+              <a href="https://github.com/skip1113/GIFtastic" target="_blank"><img
+                  src="../assets/images/GiphyApp.png" width="95%" alt=""></a>
+              <div class="uk-position-center">
+                <div class="uk-transition-slide-top-small" style="margin-top: 100px;">
+                  <h4 class="uk-margin-remove">App:</h4>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 10px;">
+                  <h4 class="uk-margin-remove">Giphy App </h4>
+                  <a href="https://skip1113.github.io/GIFtastic/index.html" target="_blank"><i class="fa fa-github-square" style="font-size:30px; color: white;" id="git-con"></i></a>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 20px;">
+                  <h4 class="uk-margin-remove" style=" color: white;">jQuery, Ajax, Javascript</h4>
+                </div>
+              </div>
+            </div>
+            <div class="column app uk-inline-clip uk-transition-toggle uk-black" tabindex="0">
+              <a href="https://github.com/skip1113/FireTrain" target="_blank"><img src="../assets/images/trainapp.png"
+                  width="95%" alt=""></a>
+              <div class="uk-position-center">
+                <div class="uk-transition-slide-top-small" style="margin-top: 100px;">
+                  <h4 class="uk-margin-remove">App:</h4>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 10px;">
+                  <h4 class="uk-margin-remove">Train Schedule App</h4>
+                  <a href="https://skip1113.github.io/FireTrain/index.html" target="_blank"><i class="fa fa-github-square" style="font-size:30px" id="git-con"></i></a>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 20px;">
+                  <h4 class="uk-margin-remove">jQuery, Firebase, Javascript, Moment</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="row4">
+      <div class="col-md-12">
+        <div class="uk-grid-small" style="display: flex;" uk-grid>
+          <div class="uk-text-center" style="display: flex;">
+            <div class="column game uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+              <a href="https://github.com/skip1113/unit-4-game" target="_blank"><img
+                  src="../assets/images/crystals.png" width="95%" alt=""></a>
+              <div class="uk-position-center">
+                <div class="uk-transition-slide-top-small" style="margin-top: 100px;">
+                  <h4 class="uk-margin-remove">Game:</h4>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 10px;">
+                  <h4 class="uk-margin-remove">Crystal Counter</h4>
+                  <a href="https://skip1113.github.io/unit-4-game/" target="_blank"><i class="fa fa-github-square" style="font-size:30px; color: white;" id="git-con"></i></a>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 20px;">
+                  <h4 class="uk-margin-remove" style=" color: white;">jQuery, Javascript</h4>
+                </div>
+              </div>
+            </div>
+            <div class="column game uk-inline-clip uk-transition-toggle uk-black" tabindex="0">
+              <a href="https://github.com/skip1113/Node-word-guess" target="_blank"><img src="../assets/images/word-node.png"
+                  width="95%" alt=""></a>
+              <div class="uk-position-center">
+                <div class="uk-transition-slide-top-small" style="margin-top: 100px;">
+                  <h4 class="uk-margin-remove">Game:</h4>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 10px;">
+                  <h4 class="uk-margin-remove">Mystery Word Guess</h4>
+                  <a href="https://github.com/skip1113/Node-word-guess" target="_blank"><i class="fa fa-github-square" style="font-size:30px" id="git-con"></i></a>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 30px;">
+                  <h4 class="uk-margin-remove" style="color: white;">Node.js, Inquirer, Chalk</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="row5">
+      <div class="col-md-12">
+        <div class="uk-grid-small" style="display: flex;" uk-grid>
+          <div class="uk-text-center" style="display: flex;">
+            <div class="column app uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+              <a href="https://github.com/skip1113/bamazon" target="_blank"><img
+                  src="../assets/images/Bamazon.png" width="95%" alt=""></a>
+              <div class="uk-position-center">
+                <div class="uk-transition-slide-top-small" style="margin-top: 90px;">
+                  <h4 class="uk-margin-remove">App:</h4>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 10px;">
+                  <h4 class="uk-margin-remove">Bamazon</h4>
+                  <a href="https://github.com/skip1113/bamazon" target="_blank"><i class="fa fa-github-square" style="font-size:30px; color: white;" id="git-con"></i></a>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 20px;">
+                  <h4 class="uk-margin-remove" style=" color: black;">Node.js, MySQL, Inquirer, Table, Chalk</h4>
+                </div>
+              </div>
+            </div>
+            <div class="column app uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+              <a href="https://github.com/skip1113/friend-finder" target="_blank"><img src="../assets/images/friend-finder.png"
+                  width="95%" alt=""></a>
+              <div class="uk-position-center">
+                <div class="uk-transition-slide-top-small" style="margin-top: 90px;">
+                  <h4 class="uk-margin-remove">App:</h4>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 10px;">
+                  <h4 class="uk-margin-remove">Friend Finder</h4>
+                  <a href="https://hidden-chamber-83537.herokuapp.com/survey" target="_blank"><i class="fa fa-github-square" style="font-size:30px; color: white;" id="git-con"></i></a>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 30px;">
+                  <h4 class="uk-margin-remove" style=" color: white;">Node.js, Express, Path, jQuery</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="row6">
+      <div class="col-md-12">
+        <div class="uk-grid-small" style="display: flex;" uk-grid>
+          <div class="uk-text-center" style="display: flex;">
+            <div class="column app uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+              <a href="https://github.com/skip1113/burger" target="_blank"><img
+                  src="../assets/images/eat-da-burger.png" width="95%" alt=""></a>
+              <div class="uk-position-center">
+                <div class="uk-transition-slide-top-small" style="margin-top: 120px;">
+                  <h4 class="uk-margin-remove">App:</h4>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 10px;">
+                  <h4 class="uk-margin-remove">Burger</h4>
+                  <a href="https://hidden-chamber-83537.herokuapp.com/" target="_blank"><i class="fa fa-github-square" style="font-size:30px" id="git-con"></i></a>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 20px;">
+                  <h4 class="uk-margin-remove" style=" color: rgb(0, 68, 255);">Node.js, MySQL, Express, Express-Handlebars</h4>
+                </div>
+              </div>
+            </div>
+            <div class="column app uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+              <a href="https://github.com/skip1113/Liri-node-app" target="_blank"><img src="../assets/images/liri-bot.png"
+                  width="95%" alt=""></a>
+              <div class="uk-position-center">
+                <div class="uk-transition-slide-top-small" style="margin-top: 120px;">
+                  <h4 class="uk-margin-remove">App:</h4>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 10px;">
+                  <h4 class="uk-margin-remove">Liri Node Bot</h4>
+                  <a href="https://github.com/skip1113/Liri-node-app" target="_blank"><i class="fa fa-github-square" style="font-size:30px" id="git-con"></i></a>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 20px;">
+                  <h4 class="uk-margin-remove" style=" color: white;">Node.js, Axios, API</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="row7">
+      <div class="col-md-12">
+        <div class="uk-grid-small" style="display: flex;" uk-grid>
+          <div class="uk-text-center" style="display: flex;">
+            <div class="column app uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+              <a href="https://github.com/skip1113/Scraping-Mongo" target="_blank"><img
+                  src="../assets/images/scraping-mongo.png" width="95%" alt=""></a>
+              <div class="uk-position-center">
+                <div class="uk-transition-slide-top-small" style="margin-top: 120px;">
+                  <h4 class="uk-margin-remove">App:</h4>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 10px;">
+                  <h4 class="uk-margin-remove">Scraping Mongo</h4>
+                  <a href="https://scraping-mongo.herokuapp.com/" target="_blank"><i class="fa fa-github-square" style="font-size:30px" id="git-con"></i></a>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 20px;">
+                  <h4 class="uk-margin-remove" style=" color: white;">Node.js, Axios, Cheerio, Mongoose, Express, Morgan</h4>
+                </div>
+              </div>
+            </div>
+            <div class="column app uk-inline-clip uk-transition-toggle uk-dark" tabindex="0">
+              <a href="https://github.com/skip1113/google-books" target="_blank"><img src="../assets/images/google-books.png"
+                  width="95%" alt=""></a>
+              <div class="uk-position-center">
+                <div class="uk-transition-slide-top-small" style="margin-top: 100px;">
+                  <h4 class="uk-margin-remove">App:</h4>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 10px;">
+                  <h4 class="uk-margin-remove">Google Books</h4>
+                  <a href="https://gogglebooks.herokuapp.com/" target="_blank"><i class="fa fa-github-square" style="font-size:30px" id="git-con"></i></a>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 20px;">
+                  <h4 class="uk-margin-remove" style=" color: white;">React.js, Mongoose, Express, Node.js</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="row8">
+      <div class="col-md-12">
+        <div class="uk-grid-small" style="display: flex;" uk-grid>
+          <div class="uk-text-center" style="display: flex;">
+            <div class="column game uk-inline-clip uk-transition-toggle uk-dark" tabindex="0">
+              <a href="https://github.com/skip1113/clicky-react" target="_blank"><img
+                  src="../assets/images/clicky-game.png" width="95%" alt=""></a>
+              <div class="uk-position-center">
+                <div class="uk-transition-slide-top-small" style="margin-top: 120px;">
+                  <h4 class="uk-margin-remove">Game:</h4>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 10px;">
+                  <h4 class="uk-margin-remove">Clicky Game</h4>
+                  <a href="https://clicky-react-simpsons.herokuapp.com/" target="_blank"><i class="fa fa-github-square" style="font-size:30px" id="git-con"></i></a>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 40px;">
+                  <h4 class="uk-margin-remove" style="color: black;">React.js, React-dom, JSX, Node.js</h4>
+                </div>
+              </div>
+            </div>
+            <div class="column game uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+              <a href="https://github.com/skip1113/Word-Guess-Game" target="_blank"><img src="../assets/images/wordgame.png"
+                  width="95%" alt=""></a>
+              <div class="uk-position-center">
+                <div class="uk-transition-slide-top-small" style="margin-top: 85px;">
+                  <h4 class="uk-margin-remove">Game:</h4>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 10px;">
+                  <h4 class="uk-margin-remove">Word Guess Game</h4>
+                  <a href="https://skip1113.github.io/Word-Guess-Game/" target="_blank"><i class="fa fa-github-square" style="font-size:30px; color: white;" id="git-con"></i></a>
+                </div>
+                <div class="uk-transition-slide-bottom-small" style="margin-top: 20px;">
+                  <h4 class="uk-margin-remove" style=" color: white;">jQuery, Javascript</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+
+        <div class="col l4 offset-l2 s12" id="footer-link">
+          <hr>
+          <!-- <h3 class="white-text">Resume -->
+          <!-- <a href="https://docs.google.com/document/d/1CfHprAQU457sMonjBTZl2bZsHv33O6Itgj-AeYNztfg/edit?usp=sharing"><i
+            class="fa fa-file-pdf-o" style="font-size:31px" id="tweet-con"></i></a></h3> -->
+          <!-- <h4>Skipk95@gmail.com</h4> -->
+          <a href="https://github.com/skip1113" target="_blank"><i class="fa fa-github-square"
+              style="font-size:36px" id="git-con"></i></a>
+          <a href="https://www.linkedin.com/in/skip-khamvongsa/" target="_blank"><i
+              class="fa fa-linkedin-square" style="font-size:36px" id="link-con"></i></a>
+          <a href="https://www.facebook.com/skip.khamvongsa" target="_blank"><i class="fa fa-facebook-square"
+              style="font-size:36px" id="face-con"></i></a>
+          <a href="https://docs.google.com/document/d/1CfHprAQU457sMonjBTZl2bZsHv33O6Itgj-AeYNztfg/edit?usp=sharing" target="_blank"><i
+              class="fa fa-file-pdf-o" style="font-size:31px" id="tweet-con"></i></a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <script>
+    filterSelection("all")
+    function filterSelection(c) {
+      var x, i;
+      x = document.getElementsByClassName("column");
+      if (c == "all") c = "";
+      for (i = 0; i < x.length; i++) {
+        w3RemoveClass(x[i], "show");
+        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+      }
+    }
+
+    function w3AddClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
+      }
+    }
+
+    function w3RemoveClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        while (arr1.indexOf(arr2[i]) > -1) {
+          arr1.splice(arr1.indexOf(arr2[i]), 1);
+        }
+      }
+      element.className = arr1.join(" ");
+    }
+
+
+    // Add active class to the current button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+  </script>
+
+</body>
+
+</html>
