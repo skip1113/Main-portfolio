@@ -205,7 +205,11 @@ body {
   }
   .hoot,
   .nite,
-  .trails {
+  .trails,
+  .nite,
+  .giphy,
+  .train,
+  .bamazon {
 	  background-size: cover;
 	  background-position: center;
 	  /* background-position: top right; */
@@ -223,6 +227,15 @@ body {
   }
   .nite {
 	  background-image: url(../images/final-project.png);
+  }
+  .giphy{
+	  background-image: url(../images/GiphyApp.png);
+  }
+  .train {
+	  background-image: url(../images/trainapp.png);
+  }
+  .bamazon {
+	  background-image: url(../images/Bamazon.png);
   }
   /* Style the buttons */
   .btn-success {
