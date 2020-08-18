@@ -181,7 +181,12 @@ body {
   .burger,
   .liri,
   .google-books,
-  .scraping {
+  .scraping,
+  .word-node,
+  .crystal,
+  .clicky,
+  .simpsonsTriv,
+  .word-game {
 	  background-size: cover;
 	  background-position: center;
 	  /* background-position: top right; */
@@ -223,6 +228,21 @@ body {
   }
   .google-books {
 	  background-image: url(../images/google-books.png);
+  }
+  .word-node {
+    background-image: url(../images/word-node.png);
+  }
+  .crystal {
+    background-image: url(../images/crystals.png);
+  }
+  .word-game {
+    background-image: url(../images/wordgame.png);
+  }
+  .simpsonsTriv {
+    background-image: url(../images/simpsonsTriv.png);
+  }
+  .clicky {
+    background-image: url(../images/clicky-game.png);
   }
   /* Style the buttons */
   .btn-success {
