@@ -1,6 +1,9 @@
 #bodie{
-    background-color: #c9c9c9;
-    
+    /* background-color: #c9c9c9; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url("https://images.squarespace-cdn.com/content/v1/5e24ae78c58616310609d323/1579466113098-QIEO3ZQ4EJ2FNT0F4E4X/ke17ZwdGBToddI8pDm48kCPztTQZpDiZMOuuCfUxiyx7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UYlQ-m0oNUh_9buvyC-f1CSdhG_dNlqULB2ZTz-ses64A-QPhXXvNcU0N8wN7BGx0g/Portfolio+Background.jpg?format=2500w"); */
+    background-image: url(../images/purple-background.jpg);
 }
 body {
     display: flex;
@@ -41,17 +44,44 @@ body {
       }
     }
 #pro-title {
+  margin-top: 10px;
+  color: #ffff;
   text-align: center;
   font-family: 'Montserrat Subrayada', sans-serif;
+}
+.btn-dark {
+  margin: 8px;
+  text-align: center;
+  color: #ffff;
+  background-color: #313131;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+  border: 2px solid #222;
+  border-radius: 5px;
+  box-shadow: 1px 1px 0 rgba(0,0,0,.25);
+  text-decoration: none;
 }
 #buttons-menu {
   text-align: center;
 }
+#project-name {
+  color: #ffff;
+}
+#project-info {
+  color: #ffff;
+}
+h2 {
+  color: #ffff;
+}
 #full-nav-one{
-  background-color: rgba(0, 0, 0, 0.7);
-    padding-top: 40px;
-    padding-bottom: 60px;
+  background-color: rgba(0, 0, 0, 0.4);
+  /* background-color: transparent; */
+    padding-top: 20px;
+    padding-bottom: 50px;
     /* background-image: url("https://miro.medium.com/max/2000/1*ZeixM2OCyy_xUEKMnSp_bQ.png"); */
+    /* background-image: url("https://miro.medium.com/max/2000/1*ZeixM2OCyy_xUEKMnSp_bQ.png"); */
+
 }
 .navbar-brand{
     color: #9d9d9d17;
@@ -68,39 +98,39 @@ body {
     padding-top: 40px;
 }
 #about-link{
-  margin: 5px;
+  margin: 8px;
   text-align: center;
-  color: rgb(255, 255, 255);
-  background-color: #313131;
-  padding: 5px;
+  color: #ffff;
+  /* background-color: #313131; */
+  /* padding: 5px; */
   font-size: 20px;
-  border: 2px solid #222;
-  border-radius: 5px;
-  box-shadow: 1px 1px 0 rgba(0,0,0,.25);
+  /* border: 2px solid #222; */
+  /* border-radius: 5px; */
+  /* box-shadow: 1px 1px 0 rgba(0,0,0,.25); */
   text-decoration: none;
 }
 #port-link{
-  margin: 5px;
+  margin: 8px;
   text-align: center;
-  color: rgb(255, 255, 255);
-  background-color: #313131;
-  padding: 5px;
+  color: #ffff;
+  /* background-color: #313131; */
+  /* padding: 5px; */
   font-size: 20px;
-  border: 2px solid #222;
-  border-radius: 5px;
-  box-shadow: 1px 1px 0 rgba(0,0,0,.25);
+  /* border: 2px solid #222; */
+  /* border-radius: 5px; */
+  /* box-shadow: 1px 1px 0 rgba(0,0,0,.25); */
   text-decoration: none;
 }
 #cont-link{
-  margin: 5px;
+  margin: 8px;
   text-align: center;
-  color: rgb(255, 255, 255);
-  background-color: #313131;
-  padding: 5px;
+  color: #ffff;
+  /* background-color: #313131; */
+  /* padding: 5px; */
   font-size: 20px;
-  border: 2px solid #222;
-  border-radius: 5px;
-  box-shadow: 1px 1px 0 rgba(0,0,0,.25);
+  /* border: 2px solid #222; */
+  /* border-radius: 5px; */
+  /* box-shadow: 1px 1px 0 rgba(0,0,0,.25); */
   text-decoration: none;
 }
 #myBtnContainer{
@@ -113,19 +143,25 @@ body {
      padding-bottom: 40px;
  }
  #git-con{
-    padding-right: 5px;
-    color: black;
+    margin: 5px;
+    /* color: black; */
+    /* background-color: #ffff; */
+    color: #ffff
 }
 #link-con{
-    padding-right: 5px;
-    color: black;
+    margin: 5px;
+    color: #ffff;
+    /* color: black; */
+    /* background-color: white; */
 }
 #face-con{
     padding-right: 5px;
-    color: black;
+    margin: 5px;
+    color: #ffff;
 }
 #tweet-con{
-    color: black;
+  margin: 5px;
+    color: #ffff;
 } 
 
   /* Create three equal columns that floats next to each other */
@@ -189,7 +225,7 @@ body {
   .word-game {
 	  background-size: cover;
 	  background-position: center;
-	  /* background-position: top right; */
+	  /* background-position: top; */
   	  transition: all ease-in-out 300ms;
       position: relative;
   	  -webkit-box-shadow: 0px 0px 23px 3px rgba(0, 0, 0, 0.2);
@@ -271,18 +307,3 @@ body {
     background-color: #666;
     color: white;
   }
-  /* .vertical-nav {
-    min-width: 16rem;
-    width: 16rem;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-    transition: all 0.4s;
-  } */
-  /* .page-content {
-    width: calc(100% - 17rem);
-    margin-left: 17rem;
-    transition: all 0.4s;
-  } */
