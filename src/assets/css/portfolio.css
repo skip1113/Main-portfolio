@@ -71,8 +71,14 @@ body {
 #project-info {
   color: #ffff;
 }
-h2 {
+h4 {
   color: #ffff;
+}
+#github {
+  font-size: 15px;
+}
+#demo {
+  font-size: 15px;
 }
 #full-nav-one{
   background-color: rgba(0, 0, 0, 0.4);
