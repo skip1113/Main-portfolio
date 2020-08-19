@@ -7,8 +7,8 @@
     /* background-color: rgba(0, 0, 0, 0.8); */
 }
 #full-nav{
-    padding: 10px;
-    padding-bottom: 30px;
+    padding: 20px;
+    padding-bottom: 50px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 #develope {
@@ -18,39 +18,39 @@
     color: white;
 }
 #about-link{
-    margin: 5px;
+    margin: 8px;
     text-align: center;
     color: #ffff;
-    background-color: #313131;
-    padding: 5px;
-    font-size: 20px;
-    border: 2px solid #222;
-    border-radius: 5px;
-    box-shadow: 1px 1px 0 rgba(0,0,0,.25);
+    /* background-color: #313131; */
+    /* padding: 5px; */
+    font-size: 15px;
+    /* border: 2px solid #222; */
+    /* border-radius: 5px; */
+    /* box-shadow: 1px 1px 0 rgba(0,0,0,.25); */
     text-decoration: none;
 }
 #port-link{
-    margin: 5px;
+    margin: 8px;
     text-align: center;
     color: #ffff;
-    background-color: #313131;
-    padding: 5px;
-    font-size: 20px;
-    border: 2px solid #222;
-    border-radius: 5px;
-    box-shadow: 1px 1px 0 rgba(0,0,0,.25);
+    /* background-color: #313131; */
+    /* padding: 5px; */
+    font-size: 15px;
+    /* border: 2px solid #222; */
+    /* border-radius: 5px; */
+    /* box-shadow: 1px 1px 0 rgba(0,0,0,.25); */
     text-decoration: none;
 }
 #cont-link{
-    margin: 5px;
+    margin: 8px;
     text-align: center;
     color: #ffff;
-    background-color: #313131;
+    /* background-color: #313131; */
     padding: 5px;
-    font-size: 20px;
-    border: 2px solid #222;
-    border-radius: 5px;
-    box-shadow: 1px 1px 0 rgba(0,0,0,.25);
+    font-size: 15px;
+    /* border: 2px solid #222; */
+    /* border-radius: 5px; */
+    /* box-shadow: 1px 1px 0 rgba(0,0,0,.25); */
     text-decoration: none;
 }
 .nav-title{
@@ -68,7 +68,7 @@ body{
     height: 1100px;
 }
 .uk-margin-auto{
-    margin-top: 7%;
+    margin-top: 5%;
     margin-bottom: auto!important;
 }
 .uk-text-center{
