@@ -1,9 +1,9 @@
 #bodie{
-    /* background-color: #c9c9c9; */
+    background-color: #8f8f8f;
     background-repeat: no-repeat;
     background-size: cover;
     /* background-image: url("https://images.squarespace-cdn.com/content/v1/5e24ae78c58616310609d323/1579466113098-QIEO3ZQ4EJ2FNT0F4E4X/ke17ZwdGBToddI8pDm48kCPztTQZpDiZMOuuCfUxiyx7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UYlQ-m0oNUh_9buvyC-f1CSdhG_dNlqULB2ZTz-ses64A-QPhXXvNcU0N8wN7BGx0g/Portfolio+Background.jpg?format=2500w"); */
-    background-image: url(../images/purple-background.jpg);
+    /* background-image: url(../images/purple-background.jpg); */
 }
 body {
     display: flex;
