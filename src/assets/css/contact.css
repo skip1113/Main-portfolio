@@ -30,6 +30,11 @@ nav{
     color: lightskyblue;
     letter-spacing: 2px;
 }
+.navbar-header a:hover {
+    text-shadow: lightsteelblue;
+    font-weight: bolder;
+    padding-top: 10px;
+}
 #full-nav{
     padding-top: 20px;
     padding-bottom: 50px;
