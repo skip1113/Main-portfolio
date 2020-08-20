@@ -9,7 +9,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    font-family: Arial;
+    /* font-family: Arial; */
   }
 
   main {
@@ -45,7 +45,7 @@ body {
     }
 #pro-title {
   margin-top: 10px;
-  color: #ffff;
+  color: rebeccapurple;
   text-align: center;
   font-family: 'Montserrat Subrayada', sans-serif;
 }
@@ -84,7 +84,7 @@ h4 {
   background-color: rgba(0, 0, 0, 0.4);
   /* background-color: transparent; */
     padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
     /* background-image: url("https://miro.medium.com/max/2000/1*ZeixM2OCyy_xUEKMnSp_bQ.png"); */
     /* background-image: url("https://miro.medium.com/max/2000/1*ZeixM2OCyy_xUEKMnSp_bQ.png"); */
 
@@ -97,8 +97,11 @@ h4 {
 }
 
 #name-logo{
-    font-size: 30px;
-    color: #ffff;
+  font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    margin-top: 5px;
+    color: lightskyblue;
+    letter-spacing: 2px;
 }
 #full-nav{
     padding-top: 40px;
