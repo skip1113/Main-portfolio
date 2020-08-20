@@ -24,38 +24,28 @@
     margin: 8px;
     text-align: center;
     color: #ffff;
-    /* background-color: #313131; */
-    /* padding: 5px; */
     font-size: 15px;
-    /* border: 2px solid #222; */
-    /* border-radius: 5px; */
-    /* box-shadow: 1px 1px 0 rgba(0,0,0,.25); */
     text-decoration: none;
 }
 #port-link{
     margin: 8px;
     text-align: center;
     color: #ffff;
-    /* background-color: #313131; */
-    /* padding: 5px; */
     font-size: 15px;
-    /* border: 2px solid #222; */
-    /* border-radius: 5px; */
-    /* box-shadow: 1px 1px 0 rgba(0,0,0,.25); */
     text-decoration: none;
 }
 #cont-link{
     margin: 8px;
     text-align: center;
     color: #ffff;
-    /* background-color: #313131; */
     padding: 5px;
     font-size: 15px;
-    /* border: 2px solid #222; */
-    /* border-radius: 5px; */
-    /* box-shadow: 1px 1px 0 rgba(0,0,0,.25); */
     text-decoration: none;
 }
+.justify-content-end a:hover{
+    font-style: italic;
+    font-weight: bold;
+  }
 .nav-title{
     margin-top: 15px;
     

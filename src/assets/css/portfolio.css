@@ -82,12 +82,8 @@ h4 {
 }
 #full-nav-one{
   background-color: rgba(0, 0, 0, 0.4);
-  /* background-color: transparent; */
     padding-top: 20px;
     padding-bottom: 40px;
-    /* background-image: url("https://miro.medium.com/max/2000/1*ZeixM2OCyy_xUEKMnSp_bQ.png"); */
-    /* background-image: url("https://miro.medium.com/max/2000/1*ZeixM2OCyy_xUEKMnSp_bQ.png"); */
-
 }
 .navbar-brand{
     color: #9d9d9d17;
@@ -110,37 +106,26 @@ h4 {
   margin: 8px;
   text-align: center;
   color: #ffff;
-  /* background-color: #313131; */
-  /* padding: 5px; */
   font-size: 15px;
-  /* border: 2px solid #222; */
-  /* border-radius: 5px; */
-  /* box-shadow: 1px 1px 0 rgba(0,0,0,.25); */
   text-decoration: none;
 }
 #port-link{
   margin: 8px;
   text-align: center;
   color: #ffff;
-  /* background-color: #313131; */
-  /* padding: 5px; */
   font-size: 15px;
-  /* border: 2px solid #222; */
-  /* border-radius: 5px; */
-  /* box-shadow: 1px 1px 0 rgba(0,0,0,.25); */
   text-decoration: none;
 }
 #cont-link{
   margin: 8px;
   text-align: center;
   color: #ffff;
-  /* background-color: #313131; */
-  /* padding: 5px; */
   font-size: 15px;
-  /* border: 2px solid #222; */
-  /* border-radius: 5px; */
-  /* box-shadow: 1px 1px 0 rgba(0,0,0,.25); */
   text-decoration: none;
+}
+.justify-content-end a:hover{
+  font-style: italic;
+  font-weight: bold;
 }
 #myBtnContainer{
     padding-top: 20px;
@@ -153,15 +138,11 @@ h4 {
  }
  #git-con{
     margin: 5px;
-    /* color: black; */
-    /* background-color: #ffff; */
     color: #ffff
 }
 #link-con{
     margin: 5px;
     color: #ffff;
-    /* color: black; */
-    /* background-color: white; */
 }
 #face-con{
     padding-right: 5px;
