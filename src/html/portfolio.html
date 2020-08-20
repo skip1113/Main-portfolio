@@ -547,6 +547,7 @@
   </footer>
   <script>
     hideProjects();
+    $(".main-projects").show();
 
     function hideProjects() {
       $(".main-projects").hide();
@@ -554,15 +555,17 @@
       $(".game-projects").hide();
     };
     $("#full-projects").on("click", function() {
-      alert("You've clicked");
+      hideProjects();
+      
       $(".main-projects").show();
     });
     $("#applications").on("click", function() {
-      alert("You've clicked applications");
+      hideProjects();
+
       $(".app-projects").show();
     });
     $("#gameApps").on("click", function() {
-      alert("You've clicked Games app");
+      hideProjects();
       $(".game-projects").show();
     });
   </script>
