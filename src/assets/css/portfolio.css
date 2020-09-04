@@ -144,45 +144,38 @@ header nav a:hover,
   font-weight: bold;
   color: lightskyblue;
 }
-@media only screen and (max-width: 768px) {
-  header {
+/* @media only screen and (max-width: 768px) {
+  .justify-content-end {
     width: 100%;
   }
 
-  header nav {
+  .justify-content-end {
     height: auto;
     width: 100%;
     padding: 5px;
     justify-content: center;
   }
 
-  header nav a {
+  .justify-content-end {
     font-size: 15px;
   }
 
-  .container-fluid {
+  .justify-content-end {
     text-align: center;
   }
-  /* #branding {
-    display: block;
-    width: 100%;
-    float: left;
-  } */
-  /* #home-click {
-    text-align: center;
-  } */
 }
 
 @media only screen and (max-width: 640px) {
-  header {
+  .justify-content-end {
     height: auto;
     padding: 0;
+    text-align: center;
   }
-  header nav a {
+  .justify-content-end {
     font-size: 13px;
     margin: 0 8px;
   }
-  .container-fluid {
+  .justify-content-end {
     padding: 0;
   }
   .active {
@@ -191,14 +184,14 @@ header nav a:hover,
 }
 
 @media only screen and (max-width: 330px) {
-  header nav a {
+  .justify-content-end {
     font-size: 11px;
     margin: 0 8px;
   }
   .active {
     padding: 0;
   }
-}
+} */
 #myBtnContainer{
     padding-top: 20px;
     text-align: center;

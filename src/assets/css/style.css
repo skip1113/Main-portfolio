@@ -46,9 +46,7 @@
     font-size: 15px;
     text-decoration: none;
 }
-/* nav {
-    flex-wrap: nowrap;
-} */
+
 .justify-content-end{
     flex-wrap: nowrap;
   }
