@@ -114,29 +114,90 @@ h4 {
     padding-top: 40px;
 }
 #about-link{
-  margin: 8px;
+  margin: 10px;
   text-align: center;
-  color: #ffff;
+  color: lightskyblue;
   font-size: 15px;
   text-decoration: none;
 }
 #port-link{
-  margin: 8px;
+  margin: 10px;
   text-align: center;
   color: #ffff;
   font-size: 15px;
   text-decoration: none;
 }
 #cont-link{
-  margin: 8px;
+  margin: 10px;
   text-align: center;
-  color: #ffff;
+  color: lightskyblue;
   font-size: 15px;
   text-decoration: none;
 }
-.justify-content-end a:hover{
+/* .justify-content-end a:hover {
   font-style: italic;
   font-weight: bold;
+} */
+header nav a:hover, 
+.active {
+  font-style: italic;
+  font-weight: bold;
+  color: lightskyblue;
+}
+@media only screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  header nav {
+    height: auto;
+    width: 100%;
+    padding: 5px;
+    justify-content: center;
+  }
+
+  header nav a {
+    font-size: 15px;
+  }
+
+  .container-fluid {
+    text-align: center;
+  }
+  /* #branding {
+    display: block;
+    width: 100%;
+    float: left;
+  } */
+  /* #home-click {
+    text-align: center;
+  } */
+}
+
+@media only screen and (max-width: 640px) {
+  header {
+    height: auto;
+    padding: 0;
+  }
+  header nav a {
+    font-size: 13px;
+    margin: 0 8px;
+  }
+  .container-fluid {
+    padding: 0;
+  }
+  .active {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  header nav a {
+    font-size: 11px;
+    margin: 0 8px;
+  }
+  .active {
+    padding: 0;
+  }
 }
 #myBtnContainer{
     padding-top: 20px;
