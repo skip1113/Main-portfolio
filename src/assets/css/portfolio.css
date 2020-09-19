@@ -277,7 +277,8 @@ header nav a:hover,
   .crystal,
   .clicky,
   .simpsonsTriv,
-  .word-game {
+  .word-game,
+  .simplynails {
 	  background-size: cover;
 	  background-position: center;
 	  /* background-position: top; */
@@ -334,6 +335,9 @@ header nav a:hover,
   }
   .clicky {
     background-image: url(../images/clicky-game.png);
+  }
+  .simplynails {
+    background-image: url(../images/simply-nails.png);
   }
   h4 {
     color: darkblue;
