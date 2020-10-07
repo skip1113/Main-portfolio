@@ -22,6 +22,7 @@ nav{
 }
 #develope{
     color: white;
+    height: 100vh;
 }
 #name-logo{
     font-family: 'Bebas Neue', cursive;
@@ -74,7 +75,7 @@ nav{
 }
 #full-form{
     background-color: #eeeeee;
-    padding-bottom: 30%;
+    padding-bottom: 20%;
 }
 #form-field{
     margin-left: 20px;
