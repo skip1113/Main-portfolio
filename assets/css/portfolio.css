@@ -144,54 +144,33 @@ header nav a:hover,
   font-weight: bold;
   color: lightskyblue;
 }
-/* @media only screen and (max-width: 768px) {
-  .justify-content-end {
-    width: 100%;
-  }
-
-  .justify-content-end {
-    height: auto;
-    width: 100%;
-    padding: 5px;
-    justify-content: center;
-  }
-
-  .justify-content-end {
-    font-size: 15px;
-  }
-
-  .justify-content-end {
-    text-align: center;
-  }
+#linkedin,
+#github-link,
+#email-link,
+#facebook,
+#resume {
+  transition-property: all;
+  transition: ease-in-out 300ms;
+  margin: 6px;
+  color: #fff;
 }
-
-@media only screen and (max-width: 640px) {
-  .justify-content-end {
-    height: auto;
-    padding: 0;
-    text-align: center;
-  }
-  .justify-content-end {
-    font-size: 13px;
-    margin: 0 8px;
-  }
-  .justify-content-end {
-    padding: 0;
-  }
-  .active {
-    padding: 0;
-  }
+#linkedin:hover {
+  color: #0077b5;
+  border-radius: 10%;
+  transform: rotateX(180deg);
 }
-
-@media only screen and (max-width: 330px) {
-  .justify-content-end {
-    font-size: 11px;
-    margin: 0 8px;
-  }
-  .active {
-    padding: 0;
-  }
-} */
+#github-link:hover {
+  color: black;
+}
+#email-link:hover {
+  color:lightskyblue;
+}
+#facebook:hover {
+  color: #3b5998;
+}
+#resume:hover {
+  color: rgb(255, 66, 66);
+}
 #myBtnContainer{
     padding-top: 20px;
     text-align: center;
@@ -201,24 +180,6 @@ header nav a:hover,
      padding-top: 50px;
      padding-bottom: 40px;
  }
- #git-con{
-    margin: 5px;
-    color: #ffff
-}
-#link-con{
-    margin: 5px;
-    color: #ffff;
-}
-#face-con{
-    padding-right: 5px;
-    margin: 5px;
-    color: #ffff;
-}
-#tweet-con{
-  margin: 5px;
-    color: #ffff;
-} 
-
   /* Create three equal columns that floats next to each other */
   .column {
     /* float: right; */
