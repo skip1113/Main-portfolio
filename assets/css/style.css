@@ -132,8 +132,9 @@ header nav a:hover,
     }
   }
 body{
-  background-image: url("https://images.unsplash.com/photo-1508830524289-0adcbe822b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+  /* background-image: url("https://images.unsplash.com/photo-1508830524289-0adcbe822b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"); */
     /* background-image: url("https://miro.medium.com/max/2000/1*ZeixM2OCyy_xUEKMnSp_bQ.png"); */
+    background-image: url("https://netfolie.com/wp-content/uploads/2016/04/Website-Design-Background-1.jpg");
     background-position: 50% 0%;
     background-repeat: no-repeat;
     background-size: cover;
